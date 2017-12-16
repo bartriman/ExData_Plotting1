@@ -13,7 +13,7 @@ the course web site:
 * <b>Description</b>: Measurements of electric power consumption in
 one household with a one-minute sampling rate over a period of almost
 4 years. Different electrical quantities and some sub-metering values
-are available.
+are available. I have skipped download part and started with loading unzipped file. 
 
 
 The following descriptions of the 9 variables in the dataset are taken
@@ -41,22 +41,7 @@ web site</a>:
 
 When loading the dataset into R, please consider the following:
 
-* The dataset has 2,075,259 rows and 9 columns. First
-calculate a rough estimate of how much memory the dataset will require
-in memory before reading into R. Make sure your computer has enough
-memory (most modern computers should be fine).
-
-* We will only be using data from the dates 2007-02-01 and
-2007-02-02. One alternative is to read the data from just those dates
-rather than reading in the entire dataset and subsetting to those
-dates.
-
-* You may find it useful to convert the Date and Time variables to
-Date/Time classes in R using the `strptime()` and `as.Date()`
-functions.
-
-* Note that in this dataset missing values are coded as `?`.
-
+* The dataset has 2,075,259 rows and 9 columns. Whole dataset is read-in in 1st step and later on subset of data from the dates 2007-02-01 and 2007-02-02 is taken into calculation. Usefull libraries of dplyr and lubridate are read into in the beggining.
 
 ## Making Plots
 
@@ -95,20 +80,20 @@ The four plots that you will need to construct are shown below.
 ### Plot 1
 
 
-![plot of chunk unnamed-chunk-2](figure/unnamed-chunk-2.png) 
+![plot of chunk unnamed-chunk-2](figure/plot1.png) 
 
 
 ### Plot 2
 
-![plot of chunk unnamed-chunk-3](figure/unnamed-chunk-3.png) 
+![plot of chunk unnamed-chunk-3](figure/plot2.png) 
 
 
 ### Plot 3
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4.png) 
+![plot of chunk unnamed-chunk-4](figure/plot3.png) 
 
 
 ### Plot 4
 
-![plot of chunk unnamed-chunk-5](figure/unnamed-chunk-5.png) 
+![plot of chunk unnamed-chunk-5](figure/plot4.png) 
 
