@@ -75,4 +75,4 @@ The four plots constructed are shown below.
 ![plot of chunk unnamed-chunk-5](figure/plot4.png) 
 
 
-The code for creating following charts and files is here: <a href="ExData_Plotting1/ExData_Plotting1.R">script</a>
+The code for creating following charts and files is here: <a href="https://github.com/bartriman/ExData_Plotting1/blob/master/ExData_Plotting1.R">script</a>
